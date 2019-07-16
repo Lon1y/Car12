@@ -1,0 +1,131 @@
+		<!DOCTYPE html>
+		<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<link href="style.css" rel="stylesheet"></link>
+			<title>CarList</title>
+			<script type="text/javascript">
+				
+			</script>
+		</head>
+		<body>
+			<section id="Tp_p" class="Top_pannel">
+				<a><img src="img/logo.png" id="logo"></a>
+				<a href="#" id="help_link">FAQ</a>
+				<a href="#" id="find_diller">Find a dealer</a>
+				<h1>Pure art. This drive.</h1>
+				<h2>The best cars at the best prices.</h2>		
+			</section>
+			<header>
+				<div id="dev_name">
+					<nav class="dev_name">
+						<ul class="dev_name">
+							<li class="dev"><a src="#">Audi</a>
+								<ul class="show">
+								    <li><a class="car" href="#">A-Series</li></a>
+								    <li><a class="car" href="#">E-Series</li></a>
+							   		<li><a class="car" href="#">Q-Series</li></a>
+								   	<li><a class="car" href="#">Z-Series</li></a>
+				        		</ul>
+							</li>
+							<li class="dev"><a src="#">Bentley</a>
+								<ul class="show">
+								    <li><a class="car" href="#">X-Series</li></a>
+								    <li><a class="car" href="#">I-Series</li></a>
+								    <li><a class="car" href="#">M-Series</li></a>
+				    	    	</ul>
+							</li>
+							<li class="dev"><a src="#">BMW</a>
+								<ul class="show">
+									<li><a class="car" href="#">Flying</li></a>
+									<li><a class="car" href="#">Muslane</li></a>
+								    <li><a class="car" href="#">Continental</li></a>
+								</ul>
+							</li>
+							<li class="dev"><a src="#">Bugatti</a>
+								<ul class="show">
+									<li><a class="car" href="#">Chrion</li></a>
+								    <li><a class="car" href="#">Veyron</li></a>
+								    <li><a class="car" href="#">Divo</li></a>
+								    <li><a class="car" href="#">Chiron</li></a>
+								    <li><a class="car" href="#">Calibier</li></a>
+								    <li><a class="car" href="#">EB-Series</li></a>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+			<header id="img_car">
+				<div>
+					<div class="anim_car_hover" id="a1">
+						<a href="#">
+							<img class="slide" width="700" height="300" src="Car/audi.jpg">
+							<div id="text_car1">
+								<h3>Audi</h3>
+							</div>
+						</a>
+					</div>
+					<div class="anim_car_hover" id="a1">
+						<a href="#">
+							<img class="slide" width="700" height="300"  src="Car/audi2.jpg">
+							<div id="text_car1">
+								<h3>Audi</h3>
+							</div>
+						</a>
+					</div>
+					<div class="anim_car_hover" id="a1">
+						<a href="#">
+							<img class="slide" width="700" height="300"  src="Car/bentley.jpg">
+							<div id="text_car1">
+								<h3>bentley</h3>
+							</div>
+						</a>
+					</div>
+					<div class="anim_car_hover" id="a1">
+						<a href="#">
+							<img class="slide" width="700" height="300"  src="Car/bentley2.jpg">
+							<div id="text_car1">
+								<h3>bentley</h3>
+							</div>
+						</a>
+					</div>
+					<div class="anim_car_hover" id="a1">
+						<a href="#">
+							<img class="slide" width="700" height="300"  src="Car/BMW.jpg">
+							<div id="text_car1">
+								<h3>BMW</h3>
+							</div>
+						</a>
+					</div>
+					<div class="anim_car_hover" id="a1">
+						<a href="#">
+							<img class="slide" width="700" height="300"  src="Car/BMW2.jpg">
+							<div id="text_car1">
+								<h3>BMW</h3>
+							</div>
+						</a>
+					</div>
+					<div class="anim_car_hover" id="a1">
+						<a href="#">
+							<img class="slide" width="700" height="300"  src="Car/bugatti.jpg">
+							<div id="text_car1">
+								<h3>bugatti</h3>
+							</div>
+						</a>
+					</div>
+					<div class="anim_car_hover" id="a1">
+						<a href="#">
+							<img class="slide" width="700" height="300"  src="Car/bugatti1.jpg">
+							<div id="text_car1">
+								<h3>bugatti</h3>
+							</div>
+						</a>
+					</div>
+				</div>
+			</header>
+			<footer id="bottom_pannel"> 
+				<h4>Excellence Through Passion</h4>
+			</footer>
+		</body>
+		</html>
