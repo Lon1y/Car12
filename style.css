@@ -1,0 +1,183 @@
+ul {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+h1 {
+	margin: 100 auto 0 auto;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 100px;
+	margin-bottom: none;
+}
+h2 {
+	font-size: 28px;
+	text-align: center;
+}
+h4 {
+	color:white;
+	font-size: 10px;
+	margin-top: 5px;
+	text-align: center;
+	padding: 15px;
+}
+#Tp_p{
+	padding: 50px;
+	padding-bottom:0; 
+	overflow: hidden;
+	position: relative;
+	background-color: white;
+	border-bottom: 2px solid black;
+}
+#logo {
+	display: block;
+	width: 170px;
+	margin: 0 auto;
+}
+#help_link{
+	position: absolute;
+	right: 7px;
+	top:5px;
+	border-radius: 3px;
+	background-color:black; 
+	color: white;
+	border: 1px solid black;
+	padding: 4px 35px;
+	transition: 0.2s ease-in-out 0s;
+}
+#find_diller{
+	position: absolute;
+	left: 5px;
+	top:5px;
+	border-radius: 3px;
+	background-color:black; 
+	color: white;
+	border: 1px solid black;
+	padding: 4px 35px;
+	transition: 0.2s ease-in-out 0s;
+}
+#help_link:hover {
+	background-color: gray;
+	color: black;
+	transition: 0.2s ease-in-out 0s;
+}
+#find_diller:hover {
+	background-color: gray;
+	color: black;
+	transition: 0.2s ease-in-out 0s;
+}
+
+#img_car {
+	border-top: 2px solid black;
+	text-align: center;
+	border-bottom: 2px solid black;
+} 
+
+#bottom_pannel{
+	margin-left: -20px;
+	margin-right: -20px;
+	margin-bottom: -20px;
+
+	background-color: black;
+	color: black;
+}
+
+.dev {
+	position: relative;
+	font-size: 24px;
+	display: inline-block;
+	cursor: pointer;
+
+}
+
+#dev_name{
+	z-index: 999999;
+	padding:0;
+	margin:0;
+    list-style: none;
+    position: relative;
+}
+
+.show {
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+.dev:hover > ul {
+	display:inherit;
+}
+.show li{
+	min-width:170px;
+	float:none;
+    display:list-item;
+    position: relative;
+    background-color: black;
+    color: white;
+}
+.car {
+	color: white;	
+}
+.car:hover {
+	color: black;
+	background-color: gray;
+}
+
+
+
+
+
+.anim_car_hover{
+display: inline-block;
+width: 700px;
+margin: 50px;
+position: relative;
+border: solid 5px rgba(255, 255, 255, 0.8);
+background: linear-gradient(20deg, #5c5858, black);
+overflow: hidden;
+}
+.anim_car_hover a{
+ display: block;
+ color: #fff;
+ text-decoration: none;
+}
+.anim_car_hover a img{
+ width: 100%;
+}
+.text-car1{
+ padding: 40px 20px;
+ transition: 0.5s ease;
+}
+.text-car1 h3{
+ font-size: 25px;
+}
+.anim_car_hover a:before,
+.anim_car_hover a:after{
+ content: '';
+ position: absolute;
+ width: 200%;
+ height: 200%;
+ transition: .5s ease-in-out;
+ mix-blend-mode: darken;
+}
+.anim_car_hover a:before{
+ right: 0;
+ bottom: -100%;
+ background: rgba(35, 35, 35, 0.4);
+ transform: skew(-45deg) translateX(100%);
+}
+.anim_car_hover a:after{
+ left: 0;
+ top: -100%;
+ background: rgba(0, 0, 0, 0.4);
+ transform: skew(135deg) translateX(-100%);
+}
+.anim_car_hover:hover a:before{
+ transform: skew(-45deg) translateX(0%);
+}
+.anim_car_hover:hover a:after{
+ transform: skew(135deg) translateX(0%);
+}
+.anim_car_hover:hover .text-car1{
+ opacity: 1;
+}
