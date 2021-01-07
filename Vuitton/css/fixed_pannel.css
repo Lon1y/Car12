@@ -1,0 +1,138 @@
+.fixed_pannel {
+  margin-top: 40px;
+  height: 800px;
+  width: 120px;
+  position: fixed;
+  margin-left: 93.7%;
+  display: flex;
+  justify-content: flex-end;
+}
+.fixed_content {
+  overflow: hidden;
+  border-left: 3px solid #BDF2F2;
+  border-top: 3px solid #BDF2F2;
+  border-bottom: 3px solid #BDF2F2;
+  z-index: 9;
+  background-color: rgba(189, 242, 242, 0.5);
+  -webkit-box-shadow: 0px 0px 30px -2px rgba(189,242,242,0.3);
+  -moz-box-shadow: 0px 0px 30px -2px rgba(189,242,242,0.3);
+  box-shadow: 0px 0px 30px -2px rgba(189,242,242,0.3);
+  border-top-left-radius: 50px;
+  height: 98.7%;
+  width: 60px;
+  border-bottom-left-radius: 50px;
+}
+
+.fixed_border {
+  background: black;
+  border-top-left-radius: 40px;
+  height: 98%;
+  width: 60px;
+  border-bottom-left-radius: 40px;
+  margin-top: 9%;
+  margin-left: 4px;
+  z-index: 10;
+  border-left: 3px solid #BDF2F2;
+  border-top: 3px solid #BDF2F2;
+  border-bottom: 3px solid #BDF2F2;
+  -webkit-box-shadow: inset 0px 0px 30px -2px rgba(189,242,242,0.4);
+  -moz-box-shadow: inset 0px 0px 30px -2px rgba(189,242,242,0.4);
+  box-shadow: inset 0px 0px 30px -2px rgba(189,242,242,0.4);
+}
+.fix_inner {
+  position: absolute;
+}
+.fixed_inner_link {
+  position: relative;
+  z-index: 222;
+  margin-left: -25px;
+  margin-top: 5px;
+  box-shadow:0px 0px 10px 7px rgba(76,38,115,0.2);
+  border-radius: 15px;
+  cursor: pointer;
+}
+#f1 {
+  z-index: 6546;
+  margin-top: 25px;
+  background-image: url(../img/fixed/coffee.png);
+  background-size: 60px;
+  width: 60px;
+  height: 60px;
+}
+#f2 {
+  margin-top: 25px;
+  background-image: url(../img/fixed/tea.png);
+  background-size: 60px;
+  width: 60px;
+  height: 60px;
+}
+#f3 {
+  margin-top: 25px;
+  background-image: url(../img/fixed/menu.png);
+  background-size: 60px;
+  width: 60px;
+  height: 60px;
+}
+#f4 {
+  margin-top: 25px;
+  background-image: url(../img/fixed/franchise.png);
+  background-size: 60px;
+  width: 60px;
+  height: 60px;
+}
+
+.fixed_inner_link:nth-child(5) {
+  margin-top: 110px;
+  background-image: url(../img/fixed/vk.png);
+  background-size: 60px;
+  width: 60px;
+  height: 60px;
+}
+.fixed_inner_link:nth-child(6) {
+  margin-top: 25px;
+  background-image: url(../img/fixed/ok.png);
+  background-size: 60px;
+  width: 60px;
+  height: 60px;
+}
+.fixed_inner_link:nth-child(7) {
+  margin-top: 25px;
+  background-image: url(../img/fixed/in.png);
+  background-size: 60px;
+  width: 60px;
+  height: 60px;
+}
+.fixed_inner_link:nth-child(8) {
+  margin-top: 25px;
+  background-image: url(../img/fixed/fb.png);
+  background-size: 60px;
+  width: 60px;
+  height: 60px;
+}
+
+
+
+
+
+.inner_hover a {
+  margin-top: 15px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.inner_hover {
+  border-radius: 15px;
+  display: none;
+  height: 24px;
+  border: 3px solid #BDF2F2;
+  -webkit-box-shadow:  0px 0px 30px -2px rgba(189,242,242,0.4);
+  -moz-box-shadow:  0px 0px 30px -2px rgba(189,242,242,0.4);
+  box-shadow:  0px 0px 30px -2px rgba(189,242,242,0.4);
+  position: absolute;
+  width:280px;
+  padding: 15px;
+  margin-left: -283px;
+  font-family: Courier New, monospace;
+  font-size: 2em;
+}

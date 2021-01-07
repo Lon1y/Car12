@@ -1,0 +1,330 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  background: black;
+  color: white;
+  text-decoration: none;
+}
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+  background-color: #BDF2F2;
+
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-thumb {
+
+background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(9,4,13,1) 20%, rgba(17,9,25,1) 41%, rgba(19,9,28,1) 42%, rgba(33,18,48,1) 80%, rgba(46,22,61,1) 88%, rgba(70,26,70,1) 100%);
+}
+* {
+    list-style-type: none;
+}
+/*
+Блок шапки
+*/
+.head {
+
+  height: 60px;
+  width: 95%;
+  margin-left: 2.5%;
+
+}
+
+.head_content {
+  display: flex;
+  margin-top: 10px;
+  height: 50px;
+  width: 100%;
+}
+.head_content_left_box {
+  width: 15%;
+  height: 50px;
+}
+.head_content_right_box{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 85%;
+  height: 50px;
+}
+.head_show_hidden {
+  display: none;
+  justify-content:flex-end;
+  width: 85%;
+  height: 50px;
+}
+.head_show_hidden_menu {
+  cursor: pointer;
+  height: 100%;
+  width: 30px;
+}
+.head_content_dropmenu_href a {
+  display: block;
+}
+.head_show_hidden_menu_linear {
+  border-radius: 50px;
+  margin-left: -5px;
+  height: 3px;
+  transition: 1s;
+  border: 2px solid rgba(241,167,242,0.68);
+  background: rgba(242,109,233,0.4);
+  box-shadow:0px 0px 10px 7px rgba(76,38,115,0.12);
+  margin-top: 5px;
+  width: 100%;
+}
+.head_show_hidden_menu:hover .head_show_hidden_menu_linear{
+  cursor: pointer;
+  box-shadow:0px 0px 10px 7px rgba(76,38,115,0.48);
+}
+.head_border {
+  border-radius: 150px;
+  border: 2px solid rgba(241,167,242,0.68);
+  background: rgba(242,109,233,0.4);
+  height: 4px;
+  box-shadow:0px 0px 10px 7px rgba(76,38,115,0.48);
+  animation: blinker 1.5s linear infinite;
+}
+
+#head_main_href {
+
+  text-decoration: none;
+  color: #F1A7F2;
+  font-weight: 300;
+  font-family: Courier New, monospace;
+  font-size: 2.5rem;
+  text-shadow: 0px 0px 19px rgba(150, 150, 150, 1);
+}
+#head_main_href:hover span {
+  animation: none;
+}
+
+.head_logo_V {
+  animation: neon-4 linear infinite 1.5s;
+}
+/*
+Анимация мигания логотипа и блика рамки
+(лучше не открывать)
+*/
+
+@keyframes neon-4 {
+    78% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    79%{
+        color: black;
+    }
+    80% {
+        text-shadow: none;
+    }
+    81% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    82% {
+        color: black;
+        text-shadow: none;
+    }
+    83% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    92% {
+        color: black;
+        text-shadow: none;
+    }
+    92.5% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+}
+@keyframes blinker {
+  5% {
+  box-shadow:0px 0px 10px 7px rgba(76,38,115,0.32);
+  -webkit-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.32);
+  -moz-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.32);
+  }
+  10% {
+  box-shadow:0px 0px 10px 7px rgba(76,38,115,0.35);
+  -webkit-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.35);
+  -moz-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.35);
+  }
+  15% {
+    box-shadow:0px 0px 10px 7px rgba(76,38,115,0.4);
+    -webkit-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.4);
+    -moz-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.4);
+  }
+  20% {
+    box-shadow:0px 0px 10px 7px rgba(76,38,115,0.35);
+    -webkit-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.35);
+    -moz-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.35);
+  }
+  25% {
+    box-shadow:0px 0px 10px 7px rgba(76,38,115,0.41);
+    -webkit-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.41);
+    -moz-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.41);
+  }
+  30% {
+    box-shadow:0px 0px 10px 7px rgba(76,38,115,0.38);
+    -webkit-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.38);
+    -moz-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.38);
+  }
+  35% {
+    box-shadow:0px 0px 10px 7px rgba(76,38,115,0.38);
+    -webkit-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.38);
+    -moz-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.38);
+  }
+  40% {
+    box-shadow:0px 0px 10px 7px rgba(76,38,115,0.32);
+    -webkit-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.32);
+    -moz-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.32);
+  }
+  45% {
+    box-shadow:0px 0px 10px 7px rgba(76,38,115,0.40);
+    -webkit-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.40);
+    -moz-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.40);
+  }
+  50% {
+    box-shadow:0px 0px 10px 7px rgba(76,38,115,0.35);
+    -webkit-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.35);
+    -moz-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.35);
+  }
+  55% {
+    box-shadow:0px 0px 10px 7px rgba(76,38,115,0.41);
+    -webkit-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.41);
+    -moz-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.41);
+  }
+  60% {
+    box-shadow:0px 0px 10px 7px rgba(76,38,115,0.38);
+    -webkit-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.38);
+    -moz-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.38);
+  }
+  65% {
+    box-shadow:0px 0px 10px 7px rgba(76,38,115,0.42);
+    -webkit-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.42);
+    -moz-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.42);
+  }
+  70% {
+    box-shadow:0px 0px 10px 7px rgba(76,38,115,0.32);
+    -webkit-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.32);
+    -moz-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.32);
+  }
+  75% {
+    box-shadow:0px 0px 10px 7px rgba(76,38,115,0.40);
+    -webkit-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.40);
+    -moz-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.40);
+  }
+  80% {
+    box-shadow:0px 0px 10px 7px rgba(76,38,115,0.35);
+    -webkit-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.35);
+    -moz-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.35);
+  }
+  85% {
+    box-shadow:0px 0px 10px 7px rgba(76,38,115,0.41);
+    -webkit-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.41);
+    -moz-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.41);
+  }
+  90% {
+    box-shadow:0px 0px 10px 7px rgba(76,38,115,0.38);
+    -webkit-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.38);
+    -moz-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.38);
+  }
+  95% {
+    box-shadow:0px 0px 10px 7px rgba(76,38,115,0.42);
+    -webkit-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.42);
+    -moz-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.42);
+  }
+  100% {
+    box-shadow:0px 0px 10px 7px rgba(76,38,115,0.32);
+    -webkit-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.32);
+    -moz-box-shadow:0px 0px 10px 7px rgba(76,38,115,0.32);
+  }
+}
+
+/*Конец анимации*/
+
+.head_content_right_box a {
+  font-weight: 300;
+  font-family: Courier New, monospace;
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+
+.head_content_dropmenu {
+  display: none;
+  margin-top: 20px;
+  border: 1px solid white;
+  width: 365px;
+  margin-left: -110px;
+  position: absolute;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  border: 2px solid rgba(241,167,242,0.68);
+  border-top: 0px solid white;
+  box-shadow:0px 0px 10px 7px rgba(76,38,115,0.48);
+  animation: blinker 1.5s linear infinite;
+}
+#head_store_drop {
+  margin-left: -150px;
+}
+
+.head_content_right_box_child a {
+  text-shadow: 0px 0px 15px #4541BF;
+}
+
+
+
+.hidden_menu{
+  overflow: hidden;
+  z-index: 500;
+  width: 100%;
+  height: 2000px;
+  position: absolute;
+  display: none;
+}
+.hidden_shadow {
+  width: 80%;
+  height: 100%;
+  background: black;
+  opacity: .7;
+}
+.hidden_menu_bar {
+  width: 70vw;
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(9,4,13,1) 20%, rgba(17,9,25,1) 41%, rgba(19,9,28,1) 42%, rgba(33,18,48,1) 80%, rgba(46,22,61,1) 88%, rgba(70,26,70,1) 100%);
+  height: 100vh;
+  -webkit-box-shadow: 0px 0px 67px 33px rgba(76, 38, 115, 0.75);
+  -moz-box-shadow: 0px 0px 67px 33px rgba(76, 38, 115, 0.75);
+  box-shadow: 0px 0px 67px 33px rgba(76, 38, 115, 0.75);
+  border-left: 2px solid #F26DE9;
+}
+.hidden_menu_bar_box {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+}
+.hidden_menu_href a {
+  border-bottom: 1px solid #F26DE9;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-weight: 300;
+  font-family: Courier New, monospace;
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  text-shadow: 0px 0px 15px #4541BF;
+  display: block;
+
+}
+
+#hidden_company {
+  display: none;
+}
+#hidden_store {
+  display: none;
+}

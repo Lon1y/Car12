@@ -1,0 +1,28 @@
+.index_body_content {
+  width: 95%;
+  margin-left: 2.5%;
+  height: 900px;
+  position: relative;
+}
+.in_promo_img {
+  width: 100%;
+  height: 900px;
+  background: blue;
+  position: absolute;
+}
+.in_promo_img img {
+  position: relative;
+}
+#in_border{
+  margin-top: 15px;
+}
+.in_content {
+  width: 100%;
+  height: 98%;
+}
+.promo_img_close {
+  display: none;
+}
+.promo_img_view {
+  display: block;
+}
